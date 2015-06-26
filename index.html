@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="images/images.jpg">
+        <title>Getting Started with HTML</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/ibs/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+        <!--Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+        <!--Important consepts-->
+            <h1>Important Concepts</h1>
+            <b>How the Web Works</b>
+            <p>The web is a bunch of computers that communicate
+              with each other. When a person goes to a web
+              page like www.google.com, their computer sends
+              a <em>HTTP Request</em> to a <em>server</em>. The
+              server finds the appropriate HTML document and sends
+              it back to the user's computer where a <em>web browser</em>
+              interprets the page and displays it on the user's screen.
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>
+              does a good job of explaining.
+            </p>
+
+            <b>HTML</b>
+            <p>HTML stands for <em>Hypertext Markup Language.</em> HTML documents form the majority of the
+              content on the web. HTML documents contain <em>text content</em> which describes "what you see"
+              and <em>markup</em> which describes "how it looks".
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This
+              video</a> gives a good overview.
+            </p>
+
+            <b>Tags and Elements</b>
+            <p>HTML documents are made of HTML <b>elements</b>. When
+              writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>.
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a>
+              explains the distinction well.
+            </p>
+
+            <b>Why Computers are Stupid</b>
+            <p>Computers are stupid because they interpret instructions
+              literally. This makes them very unforgiving since a
+              small mistake by a programmer can cause huge problems
+              in a program.
+            </p>
+            <!--paragraphs using special characters-->
+            <b>Inline vs Block Elements</b>
+                <p>HTML elements are either <b>inline</b> or <b>block</b>. Block
+                  elements form an "invisible box" around the content inside of
+                  them.
+            </p>
+            <p>
+                <h2><b>HTML Mark ups</b></h2>
+                <b>"Tags"</b> <br>
+                &#60; name &#62; contents &#60; /name &#62; <br>
+                called an element
+            </p>
+            <p>
+                <b>&#60; b &#62;</b><br>
+                &#60; b &#62; contents &#60; /b &#62; <br>
+                b = bold
+            </p>
+
+            <p>
+                <b>&#60; em &#62;</b> <br>
+                &#60; em &#62; contents &#60; /em &#62; <br>
+                em = italics
+            </p>
+
+            <p>
+                <h2><b>HTML Attributes = Links</b></h2>
+                &#60; tag attr="value"&#62; contents &#60; /tag &#62; <br>
+                <b>&#60; a &#62;</b> = anchor = making links <br>
+                &#60; a href = "www.reddit.com"&#62; derp &#60; /a &#62;</a> <br>
+                href = attribute name <br>
+                derp = contents
+            </p>
+
+            <p>
+                <h2><b>Images Tag</b></h2>
+                &#60; img src ="url" alt = "text"&#62; <br>
+                src = attribute source <br>
+                alt = alternate (text that is displayed when image does not load <br>
+                alt = "text" is REQUIRED <br>
+                There is no contents to img so no closing tag necessary = <b>void tag</b>
+            </p>
+
+            <p>
+                <h2><b>White Space = breaking lines</b></h2>
+                <b>&#60; br &#62;</b> = break &#60; void &#62; <br>
+                <b>&#60; p &#62;</b> = paragraph = &#60; p &#62; contents &#60; /p &#62;
+            </p>
+
+            <p>
+                <h2><b>Inline / Block</b></h2>
+                <b>&#60; br &#62;</b> = Inline (ending a line) <br>
+                <b>&#60; p &#62;</b> = Block (invisible box that has width and height) <br>
+                Inline = &#60; b &#62; &#60; em &#62; &#60; img &#62;
+            </p>
+
+            <p>
+                <h2><b>Span / Div</b></h2>
+                span = inline / div = block <br>
+                &#60; span class="foo"&#62; <br>
+                &#60; div class ="bar"&#62; 
+            </p>
+            <b>Insert Images</b> &#62; &#60;
+            <div>
+            <picture class=" image-responsive"><!--Image-->
+              <img
+                src="images/courage_eggplant_by_gth089-d4h0csw.png" alt="image"class="image-responsive first-image">
+            </picture>
+            </div>
+        </div><!--End Container-->
+    </body>
+</html>

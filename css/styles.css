@@ -1,0 +1,24 @@
+/*Code CSS*/
+body {
+    background-color: gray;
+        font-family: 'Indie Flower', cursive;
+}
+a {
+    text-decoration: none;
+    color: pink;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+/*style of container */
+.container{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+/*Format of image*/
+.first-image {
+    height: 30%;
+    width: 80%;
+}
